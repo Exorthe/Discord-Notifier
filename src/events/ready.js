@@ -1,4 +1,3 @@
-// src/events/ready.js
 const { Events } = require('discord.js');
 const { syncAllCalendars, checkCachedEvents } = require('../services/googleCalendar');
 
