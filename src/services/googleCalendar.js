@@ -1,4 +1,3 @@
-// src/services/googleCalendar.js
 const { google } = require('googleapis');
 const { readDb, writeDb } = require('../utils/database');
 
