@@ -8,6 +8,9 @@
     "dev": "nodemon index.js",
     "update" : "node deploy-commands.js"
   },
+  "nodemonConfig": {
+    "ignore": ["users.json"]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
